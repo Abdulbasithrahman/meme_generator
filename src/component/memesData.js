@@ -1,0 +1,22 @@
+export default[{
+    id:1,
+    topText:"",
+    bottomText:"",
+    randomImage:"./search.png"
+},{
+id:2,
+topText:"",
+bottomText:"",
+randomImage:"./tour3.jpg"
+},{
+    id:3,
+    topText:"",
+    bottomText:"",
+    randomImage:"./tourist.png"
+    }
+    ,{
+        id:4,
+        topText:"",
+        bottomText:"",
+        randomImage:"./tour2.jpg"
+        }]

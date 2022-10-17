@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+.nav{
+  background:linear-gradient(90deg,#672280 1.18%,#A626d3 100%) ;
+  height: 120px;
+  justify-content: space-between;
+  color: white;
+}
+main{
+  padding: 50px;
+}
+.nav-logo{
+  width: 80px;
+  height: 80px;
+  padding-bottom: 10px;
+}
+.nav-title{
+  display: flex;
+  padding: 20px;
+}
+.nav-name{
+  padding: 20px;
+  font-weight: 800;
+}
+.nav-menu{
+  padding: 40px;
+  opacity: 0.5;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+}
+.form-input{
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+.form-button{
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background: linear-gradient(90deg,#672280 1.18%,#A626d3 100%) ;
+  color: white;
+} 
+.meme{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+.meme--image{
+  width: 70%; 
+  margin:20px;
+  z-index: -1;
+}
+.top{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 300px;
+  overflow: hidden;
+  font-size: 40px;
+  font-weight: bold;
+}
+.bot{
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  font-size: 40px;
+  font-weight: bold;
+  width: 300px;
+  overflow: hidden;
+}
+
